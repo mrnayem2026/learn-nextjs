@@ -37,25 +37,39 @@ const BlogPage = () => {
               </li>
               <li>
                 <Link href="https://medium.com/geekculture/5-vscode-extensions-tricks-to-speed-up-react-nextjs-development-workflow-1b3b5773840d#d69a">
-                 Emmet
+                  Emmet
                 </Link>
               </li>
               <li>
                 <Link href="https://medium.com/geekculture/5-vscode-extensions-tricks-to-speed-up-react-nextjs-development-workflow-1b3b5773840d#5be2">
-                 Tailwind CSS Intellisense
+                  Tailwind CSS Intellisense
                 </Link>
               </li>
               <li>
                 <Link href="https://medium.com/geekculture/5-vscode-extensions-tricks-to-speed-up-react-nextjs-development-workflow-1b3b5773840d#1b40">
-                Prettier
+                  Prettier
                 </Link>
               </li>
               <li>
                 <Link href="https://medium.com/geekculture/5-vscode-extensions-tricks-to-speed-up-react-nextjs-development-workflow-1b3b5773840d#e54e">
-                Auto rename tag
+                  Auto rename tag
                 </Link>
               </li>
             </ul>
+          </div>
+        </div>
+
+        {/* 1st extensions  */}
+        <div>
+          <h1 className="text-5xl font-black text-center py-6">
+            1. ES7+ React/Redux/React-Native snippets
+          </h1>
+          <div className="flex flex-col justify-center items-center">
+            <p className="text-xl">
+              This extension provides easy access to commonly used snippets in a <br />
+              React project. For example, to create a new functional component <br />
+              one have to usually copy and paste or type out the following:
+            </p>
           </div>
         </div>
       </div>
