@@ -178,8 +178,73 @@ export default NewComponent;
               srcset=""
             />
             <p className="text-xl py-12">
-              There is no extension needed for Emmet snippets and expansion as <br />
-              it is built right into VSCode now. You can refer to the cheat <br />
+              There is no extension needed for Emmet snippets and expansion as{" "}
+              <br />
+              it is built right into VSCode now. You can refer to the cheat{" "}
+              <br />
+              sheet here for more examples of using Emmet abbreviation.
+            </p>
+          </div>
+        </div>
+
+        {/* 3rd extensions  */}
+        <div className="py-12">
+          <h1 className="text-5xl font-black text-center py-6">
+            3. Tailwind CSS Intellisense
+          </h1>
+          <div className="flex flex-col justify-center items-center">
+            <p className="text-xl">
+              Tailwind CSS is a relatively new CSS framework that provides a lot <br />
+              of utility classes that can be used to build any design. It makes  <br />
+              UI designing and implementation a breeze. Tailwind CSS is not <br />
+              something specific to React/Next project as it could be used in <br />
+              conjunction with other frameworks as well. You should definitely <br />
+              try out Tailwind CSS if you haven’t :) 
+              
+              <br /> <br />
+              This extension enhances the
+              development experience <br /> by providing features such as
+              auto-completion and documentation on hover.
+            </p>
+            
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1100/1*YdDp6muxEbg2u-2Sdmrk4A.gif"
+              alt="Code 1"
+              className="py-3"
+              srcset=""
+            />
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1100/1*0HeHh-gBYKrCQXyesnOWhA.gif"
+              alt="Code 1"
+              className="py-3"
+              srcset=""
+            />
+
+            <img
+              src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*45YphVfdJIm7EDlN8pPP9g.png"
+              alt="Code 1"
+              className="py-3"
+              srcset=""
+            />
+
+            <p className="text-xl py-12">
+              Expanding on that, imagine now you need to add a class name to{" "}
+              <br />
+              each of the li element and a unique id for each item, you can do{" "}
+              <br />
+              so with the abbreviation: <code>{code4}</code>
+            </p>
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1100/1*RHPsIaC-6zCKlFySCkqvlw.gif"
+              alt="Code 1"
+              className="py-3"
+              srcset=""
+            />
+            <p className="text-xl py-12">
+              There is no extension needed for Emmet snippets and expansion as{" "}
+              <br />
+              it is built right into VSCode now. You can refer to the cheat{" "}
+              <br />
               sheet here for more examples of using Emmet abbreviation.
             </p>
           </div>
