@@ -9,6 +9,26 @@ const NewComponent = () => (
     <div>I am a new component</div>
 );
 export default NewComponent;
+
+  `;
+  const code2 = `
+<div>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+  `;
+
+  const code3 = `
+  div>ul>li*5
+  `;
+
+  const code4 = `
+  div>ul>li.item#id$*5.
   `;
 
   return (
@@ -113,6 +133,55 @@ export default NewComponent;
               className="py-3"
               srcset=""
             />
+          </div>
+        </div>
+
+        {/* 2nd extensions  */}
+        <div className="py-12">
+          <h1 className="text-5xl font-black text-center py-6">2. Emmet</h1>
+          <div className="flex flex-col justify-center items-center">
+            <p className="text-xl">
+              Emmet, specifically Emmet abbreviation is a CSS-path-liked special{" "}
+              <br />
+              expression that can be parsed in the IDE and transformed into a{" "}
+              <br />
+              structured code block. For example, in order to create a div with{" "}
+              <br />
+              an unordered list and 5 list elements inside, the HTML code looks
+              something like below:
+            </p>
+            <div className="py-9">
+              <CodeBlock language="javascript" code={code2}></CodeBlock>
+            </div>
+            <p className="text-xl">
+              With Emmet abbreviation and expansion, we can do so with the
+              following expression: <code>{code3}</code>
+            </p>
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1100/1*t2LoUL-x5AvSJJlX-20vPA.gif"
+              alt="Code 1"
+              className="py-3"
+              srcset=""
+            />
+
+            <p className="text-xl py-12">
+              Expanding on that, imagine now you need to add a class name to{" "}
+              <br />
+              each of the li element and a unique id for each item, you can do{" "}
+              <br />
+              so with the abbreviation: <code>{code4}</code>
+            </p>
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1100/1*RHPsIaC-6zCKlFySCkqvlw.gif"
+              alt="Code 1"
+              className="py-3"
+              srcset=""
+            />
+            <p className="text-xl py-12">
+              There is no extension needed for Emmet snippets and expansion as <br />
+              it is built right into VSCode now. You can refer to the cheat <br />
+              sheet here for more examples of using Emmet abbreviation.
+            </p>
           </div>
         </div>
       </div>
