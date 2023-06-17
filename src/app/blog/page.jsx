@@ -194,19 +194,23 @@ export default NewComponent;
           </h1>
           <div className="flex flex-col justify-center items-center">
             <p className="text-xl">
-              Tailwind CSS is a relatively new CSS framework that provides a lot <br />
-              of utility classes that can be used to build any design. It makes  <br />
-              UI designing and implementation a breeze. Tailwind CSS is not <br />
-              something specific to React/Next project as it could be used in <br />
-              conjunction with other frameworks as well. You should definitely <br />
-              try out Tailwind CSS if you haven’t :) 
-              
+              Tailwind CSS is a relatively new CSS framework that provides a lot{" "}
+              <br />
+              of utility classes that can be used to build any design. It makes{" "}
+              <br />
+              UI designing and implementation a breeze. Tailwind CSS is not{" "}
+              <br />
+              something specific to React/Next project as it could be used in{" "}
+              <br />
+              conjunction with other frameworks as well. You should definitely{" "}
+              <br />
+              try out Tailwind CSS if you haven’t :)
               <br /> <br />
-              This extension enhances the
-              development experience <br /> by providing features such as
-              auto-completion and documentation on hover.
+              This extension enhances the development experience <br /> by
+              providing features such as auto-completion and documentation on
+              hover.
             </p>
-            
+
             <img
               src="https://miro.medium.com/v2/resize:fit:1100/1*YdDp6muxEbg2u-2Sdmrk4A.gif"
               alt="Code 1"
@@ -247,6 +251,48 @@ export default NewComponent;
               <br />
               sheet here for more examples of using Emmet abbreviation.
             </p>
+          </div>
+        </div>
+
+        {/* 4th extensions  */}
+        <div className="py-12">
+          <h1 className="text-5xl font-black text-center py-6">4. Prettier</h1>
+          <div className="flex flex-col justify-center items-center">
+            <p className="text-xl">
+              Prettier is a code formatter that helps to enforce consistent{" "}
+              <br />
+              styles throughout the entire repository. Things like spacing,{" "}
+              <br />
+              single vs quote, max length per line can be dealt with Prettier{" "}
+              <br />
+              and this extension easily. For me, I have been using the{" "}
+              <span className="bg-gray-300 p-1 m-2 rounded-lg">
+                {" "}
+                Format Document
+              </span>{" "}
+              <br />
+              command in the VSCode Command Palette with Prettier
+              <br />
+              configured.
+            </p>
+
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1100/1*5Vgu0uYPgOq8Xvx2LmIclg.gif"
+              alt="Code 1"
+              className="py-3"
+              srcset=""
+            />
+            <p className="text-xl py-12">
+              You can further customize the configuration of formatting rules <br />
+              (by editing the extension settings or .prettierrc file) and also <br />
+              set the code to be automatically formatted on file save. <br />
+            </p>
+            <img
+              src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*J9IqUuHZ4HaGWIpZTEtlWw.png"
+              alt="Code 1"
+              className="py-3"
+              srcset=""
+            />
           </div>
         </div>
       </div>
