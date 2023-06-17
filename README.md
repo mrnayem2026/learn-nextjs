@@ -1,6 +1,6 @@
 **Redmi File: Hero Medium Blog**
 
-Website Image Live Site Link: [www.Hero Medium Blog.com](https://www.exampleblog.com)
+Website  Live Site Link: [www.Hero Medium Blog.com](https://www.exampleblog.com)
 
 Discussion: The Hero Medium Blog  is a website designed to emulate the style and functionality of the popular blogging platform Medium, with a particular focus on the Hero theme. This blog copy incorporates various technologies to create a visually appealing and user-friendly experience for readers. Below are the key technologies used in developing the Hero Medium Blog :
 
@@ -20,3 +20,6 @@ Additionally, the Hero Medium Blog Copy utilizes the following technology for en
 - DaisyUI: Version 3.1.1 - A plugin for Tailwind CSS that adds a collection of ready-to-use UI components and utilities.
 
 These technologies work together to create a visually appealing and responsive Hero Medium Blog Copy, offering readers an engaging and immersive blogging experience.
+
+
+![Screenshot](/src/img/main.png)
