@@ -1,7 +1,16 @@
 import Link from "next/link";
 import React from "react";
+import CodeBlock from "../component/CodeBlock";
 
 const BlogPage = () => {
+  const code = `
+import React from 'react';
+const NewComponent = () => (
+    <div>I am a new component</div>
+);
+export default NewComponent;
+  `;
+
   return (
     <div className="container mx-auto py-20">
       <h1 className="text-center text-7xl font-serif font-bold">
@@ -66,10 +75,44 @@ const BlogPage = () => {
           </h1>
           <div className="flex flex-col justify-center items-center">
             <p className="text-xl">
-              This extension provides easy access to commonly used snippets in a <br />
-              React project. For example, to create a new functional component <br />
+              This extension provides easy access to commonly used snippets in a{" "}
+              <br />
+              React project. For example, to create a new functional component{" "}
+              <br />
               one have to usually copy and paste or type out the following:
             </p>
+            <div className="py-6">
+              <CodeBlock language="javascript" code={code}></CodeBlock>
+            </div>
+            <p className="text-xl">
+              With this extension, you can easily create a new component with
+              rafce abbreviation.
+            </p>
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1100/1*ydNsaXZiZBtEoxPJK5QGQw.gif"
+              alt="Code 1"
+              className="py-3"
+              srcset=""
+            />
+
+            <p className="text-xl py-12">
+              If you work with Redux, there are a lot of boilerplate codes that{" "}
+              <br />
+              need to be written to connect the component to the store. With the{" "}
+              <br />
+              extension, you can save a lot of typing or copy-pasting using the
+              <span className="bg-gray-300 p-1 m-2 rounded-lg">
+                {" "}
+                rfcredux
+              </span>{" "}
+              abbreviation.
+            </p>
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1100/1*nSYdau-OFSbwL2XV3q1QHA.gif"
+              alt="Code 1"
+              className="py-3"
+              srcset=""
+            />
           </div>
         </div>
       </div>
